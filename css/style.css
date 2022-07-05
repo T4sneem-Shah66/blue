@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/*  ============== HEADER START =============  */
+header{
+    background-color: #121B2A;
+    padding: 10px 0;
+    /* border-bottom: 5px groove rgb(7, 7, 7); */
+    overflow: hidden;
+}
+
+.wrapper{
+    /* border: 5px solid green; */
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 15%;
+    /* border: 1px solid white; */
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    width: 70%;
+    /* border: 1px solid white; */
+    float: right;
+    margin-top: 25px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    display: inline-block;
+    color: white;
+    transition: all 400ms ease;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: #00788D;
+}
+/*  ============== HEADER ENDED =============  */
+/* ============== BANNER START ============= */
+.banner{
+    background-image: url(../images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    min-height: 562.759px;
+    box-shadow: 0px 10px 12px #111111 inset;
+}
+.banner-content{
+    margin: 250px 0 50px 30px;
+    width: 50%;
+}
+.banner-content p:first-child{
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.banner-content h1{
+    color: #0075B8;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.banner-content p:nth-child(3){
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.banner-content button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: white;
+    text-transform: uppercase;
+}
+.banner-content button a{
+    color: #111111;
+    font-weight: bolder;
+}
+.banner-content button span i{
+    background-color: #0175b6;
+    padding: 5px 5px;
+    padding-bottom: 4px;
+    padding-right: 3.75px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+/* ============== BANNER ENDED ============= */
+/* ============== SERVICE START ============= */
+.service{
+    background-color: #121B2C;
+    padding: 50px 0px;
+}
+.single{
+    width: 29.1%;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+.icon-content h1{
+    font-size: 25px; 
+    margin-top: 25px; 
+    margin-right: -10px;
+}
+
+.icon-content h1 span{
+    color: #00788D;
+}
+
+.effect{
+    box-shadow: 0.1111px 0px 0px white;
+}
+.single:last-child{
+    border-right: 0;
+}
+.title{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.icon{
+    /* border: 1px solid red; */
+    width: 25%;
+    float: left;
+}
+.icon img{
+    width: 100%;
+}
+.icon-content{
+    /* border: 1px solid white; */
+    width: 70%;
+    float: left;
+    padding-left: 7px;
+}
+.icon-content h1{
+    color: white;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.icon-content h2{
+    color: #0175b6;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+
+}
+.content{
+    color: white;
+}
+.content p{
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
+/*  ============= SERVICE ENDED ============= */
+/* ============== CONTACT START ============= */
+.contact{
+    margin: 0 auto;
+    height: 20.5vw;
+    background-color: #040811;
+    padding: 50px 0;
+    overflow: hidden;
+    color: white;
+    font-size: 13px;
+}
+.contact h2{
+    font-size: 19px;
+    color: white;
+}
+.content2 p span{
+    color:#040811;
+}
+/* single start */
+.content2{
+    overflow: hidden;
+    width: 76%;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.content2 h2{
+    padding-bottom: 1.5rem;
+}
+.content2 h2 span{
+    color: #0175b6;
+}
+.content2 .address{
+    padding-bottom: 1.5rem;
+}
+.single2{
+    float: left;
+}
+/* single end */
+/* single start */
+.speech-bubble{
+    background-color:#0c1019;
+    padding: 19px 28px 22px;
+    line-height: 1.4rem;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+.info{
+    margin-left: 1.7rem;
+}
+.s2 .info a{
+    text-decoration:none;
+    color:white;
+}
+.s3{
+    display: flex;
+    gap: 95px;
+}
+.s3 .h2{
+    color: #0175b6; 
+    font-size: 1.5rem;
+}
+.s3 .img1{
+    margin-right: 0;
+    margin-left: 50%;
+}
+.s3 .img{ 
+    margin-top: 0.8rem; 
+    margin-bottom: 0; 
+    padding-bottom: 0;
+
+}
+/* single end */
+/* ============== CONTACT ENDED ============= */
+/* ============== FOOTER START ============= */
+footer{
+    color: white;
+    background: #121b2c;
+    overflow: hidden;
+}
+.left{
+    float: left;
+    margin: 0;
+    padding: 2.5rem 0 3rem;
+}
+
+.right{
+    padding-top: 0;
+    margin-top: 1.5rem;
+    margin-right: 6.5%;
+    float: right;
+}
+
+.right img{
+    width: 100%;
+}
+/* ============== FOOTER ENDED ============= */
